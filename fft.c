@@ -27,7 +27,7 @@ static void fft(int fl, int sign, mpfr_t xr[],mpfr_t xi[], int nu, mpfr_t pi, mp
 //   tiny FFT program
 //  sign: FFT, when sign>0; Inverse FFT, when sign<0
 //  xr,xi: input & output; xr=array real part, xi=array of imaginary part
-//  nu: N=^nu; N is length of xr and xi
+//  nu: N=2^nu; N is length of xr and xi
 //  pi: ratio of diameter vs. circumference
 //  rmode: rounding mode
 static int n2,nu1,l,i,k,k1,k1n2,p,n, b;
