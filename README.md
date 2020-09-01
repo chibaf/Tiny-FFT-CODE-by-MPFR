@@ -5,7 +5,9 @@ Tiny FFT CODE by MPFR
 Compile and Go
 
 think nothing of warnings : )
+
 % gcc check.c fft.c -lmpfr -lgmp
+
 In file included from check.c:4:
 /usr/local/include/mpfr.h:218: warning: use of `long double' type; its prec may change in a future release
 /usr/local/include/mpfr.h:218: warning: (Long double usage is reported only once for each file.
@@ -15,7 +17,9 @@ In file included from fft.c:4:
 /usr/local/include/mpfr.h:218: warning: (Long double usage is reported only once for each file.
 /usr/local/include/mpfr.h:218: warning: To disable this warning, use -Wno-long-double.)
 Output of check program
+
 % ./a.out 
+
 1: 1.00000000000000000000000000000000
 2: 1.00000000000000000000000000000000
 3: 1.00000000000000000000000000000000
