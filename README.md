@@ -1,6 +1,7 @@
 # Tiny-FFT-CODE-by-MPFR
 Tiny FFT CODE by MPFR
 
+I used this routine for a study of a partial differential equation.
 
 Compile and Go
 
